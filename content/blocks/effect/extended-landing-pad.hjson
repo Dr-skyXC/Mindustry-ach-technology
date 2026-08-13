@@ -1,0 +1,40 @@
+{
+  // 类型：接收台
+  type: LandingPad
+
+  // 显示名称
+  name: "循环冷却接收台"
+  // 描述
+  description: "使用大量钛粉构建内置循环冷却系统，耗水量大幅下降，效率也有所提升。"
+
+  // 基础属性
+  size: 4
+  health: 640
+  category: effect
+  alwaysUnlocked: true
+
+  consumeLiquidAmount: 24
+
+  // 消耗的液体类型
+  consumeLiquid: water
+
+  // 冷却时间
+  cooldownTime: 90
+
+  // 接收时间
+  arrivalDuration: 90
+
+  // 物品容量
+  itemCapacity: 160,
+
+  // 液体容量
+  liquidCapacity: 48,
+
+  // 建造需求
+  requirements: [
+    titanium/200
+    thorium/100
+    graphite/80
+    lead/60
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  type: StorageBlock,
+  name: "扩展容器",
+  description: "更大的容器！",
+  size: 2,
+  health: 400,
+  itemCapacity: 600,
+  coreMerge: true,
+  category: effect,
+  alwaysUnlocked: true,
+  requirements: [
+    titanium/100,
+    thorium/40,
+    silicon/20
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  type: StorageBlock,
+  name: "扩展仓库",
+  description: "更大的仓库！",
+  size: 3,
+  health: 900,
+  itemCapacity: 2000,
+  coreMerge: true,
+  category: effect,
+  alwaysUnlocked: true,
+  requirements: [
+    titanium/250,
+    thorium/150,
+    silicon/40
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  type: MassDriver
+  name: "电磁弹射质量驱动器"
+  description: "采用电磁弹射技术，将货物以极高初速投射至远方，大幅提升物流效率。"
+
+  size: 3
+  health: 2200
+
+  // 运输距离
+  range: 800
+
+  // 容量
+  itemCapacity: 240
+
+  // 快速转向，瞄准更灵活
+  rotateSpeed: 12
+
+  // 运输物品的群聚散布范围
+  translation: 7
+
+  // 最小发射数量：1 即可发射，响应更快
+  minDistribute: 50
+
+  // 击退效果（视觉反馈）
+  knockback: 10
+
+  // 装填时间
+  reload: 12
+
+  // 弹丸飞行速度
+  bulletSpeed: 16
+
+  // 弹丸寿命，配合速度保证远距离
+  bulletLifetime: 240
+
+  // 发射特效
+  shootEffect: shootBig2
+
+  // 烟雾特效
+  smokeEffect: shootBig2
+
+  // 接收特效
+  receiveEffect: mineBig
+
+  // 发射音效
+  shootSound: massdriver
+
+  // 接收音效
+  receiveSound: massdriverReceive
+
+  shootSoundVolume: 0.7
+
+  // 屏幕震动
+  shake: 2
+
+  category: distribution
+
+  alwaysUnlocked: true
+
+  // 电力消耗
+  consumes: {
+    power: 2.0
+  }
+
+  // 建造需求：提升巨浪合金用量，体现科技感
+  requirements: [
+    titanium/120
+    silicon/90
+    plastanium/70
+    surge-alloy/60
+  ]
+}

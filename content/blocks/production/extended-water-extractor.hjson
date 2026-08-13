@@ -1,0 +1,44 @@
+{
+  // 使用 SolidPump 类型
+  type: SolidPump
+
+  // 基本属性
+  name: "深层抽水机"
+  description: "消耗更多电力，从地下更深处抽取大量水资源。"
+  size: 2
+  health: 640
+  category: production
+  alwaysUnlocked: true
+
+  // 产出液体：水
+  result: water
+  // 基础抽取效率
+  baseEfficiency: 1.0
+  pumpAmount: 6
+
+  // 属性加成
+  // attribute: water
+
+  // 电力消耗
+  consumes: {
+    power: 10.0
+  }
+
+  // 液体缓存
+  liquidCapacity: 720
+
+  // 旋转速度
+  rotateSpeed: 1.0
+
+  // 建造需求
+  requirements: [
+    titanium/150
+    thorium/100
+    silicon/80
+    lead/60
+  ]
+
+  // 其他属性
+  hasPower: true
+  outputsLiquid: true
+}

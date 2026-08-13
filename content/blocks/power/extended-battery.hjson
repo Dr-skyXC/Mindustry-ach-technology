@@ -1,0 +1,18 @@
+{
+    "type": "Battery",
+    "name": "疏导矩阵",
+    "description": "发出来的电可不能浪费，对吧？",
+    "size": 3,
+    "health": 4000,
+    "category": "power",
+    "alwaysUnlocked": true,
+    "consumes": {
+        "powerBuffered": 100000000
+    },
+    "requirements": [
+        { "item": "phase-fabric", "amount": 50 },
+        { "item": "surge-alloy", "amount": 100 },
+        { "item": "silicon", "amount": 200 },
+        { "item": "titanium", "amount": 200 }
+    ]
+}

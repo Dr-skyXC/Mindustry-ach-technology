@@ -1,0 +1,19 @@
+{
+  "type": "PowerNode",
+  "name": "超导电力枢纽",
+  "description": "终极电力节点，连接一切。",
+  "size": 2,
+  "health": 200,
+  "laserRange": 60,
+  "maxNodes": 32,
+  "autolink": true,
+  "drawRange": true,
+  category: power,
+  alwaysUnlocked: true,
+  requirements: [
+    titanium/80,
+    thorium/40,
+    surge-alloy/20,
+    silicon/20
+  ]
+}

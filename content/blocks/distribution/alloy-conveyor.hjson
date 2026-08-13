@@ -1,0 +1,21 @@
+{
+  "type": "ItemBridge",
+  "name": "巨浪合金桥",
+  "description": "使用巨浪合金建造的桥，比相织布桥更快更强。",
+  "size": 1,
+  "health": 120,
+  "itemCapacity": 40,
+  "range": 24,                    // 桥长20 格，比相织布桥（11格）更长
+  "transportTime": 1,           // 物品传输时间 1 秒
+  "pulse": true,                  // 启用脉动光效
+  "moveArrows": true,             // 显示流动箭头
+  "arrowPeriod": 0.3,             // 箭头动画更快
+  "arrowTimeScl": 8.0,            // 加速箭头运动
+  "category": "distribution",
+  "alwaysUnlocked": true,
+  "requirements": [
+    "surge-alloy/10",
+    "silicon/8",
+    "titanium/6"
+  ]
+}

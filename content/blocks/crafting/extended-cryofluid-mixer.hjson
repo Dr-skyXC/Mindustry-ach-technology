@@ -1,0 +1,47 @@
+{
+  "type": "GenericCrafter",
+  "name": "冷却液倍增混合器",
+  "description": "改进的冷却液混合器，利用产出来的冷却液从大气中冷凝更多的水，回用于生产。",
+  "size": 2,
+  "health": 320,
+  "category": "crafting",
+  "alwaysUnlocked": true,
+
+  // 生产设定
+  // 生产时间
+  "craftTime": 120,
+  "outputLiquid": {
+    "liquid": "cryofluid",
+    "amount": 1 
+  },
+
+  // 输入消耗
+  "consumes": {
+    "power": 1.0,
+    "items": {
+      "items": [
+        { "item": "titanium", "amount": 1 }
+      ]
+    },
+    "liquid": {
+      "liquid": "water",
+      "amount": 0.2
+    }
+  },
+
+  // 液体储存
+  "liquidCapacity": 120,
+
+  // 其他属性
+  "hasPower": true,
+  "hasItems": true,
+  "hasLiquids": true,
+  "outputsLiquid": true,
+
+  // 建造需求
+  "requirements": [
+    { "item": "lead", "amount": 65 },
+    { "item": "silicon", "amount": 40 },
+    { "item": "titanium", "amount": 60 }
+  ]
+}
