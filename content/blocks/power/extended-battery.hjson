@@ -1,6 +1,6 @@
 {
     "type": "Battery",
-    "name": "疏导矩阵",
+    "name": "extended-battery",
     "description": "发出来的电可不能浪费，对吧？",
     "size": 3,
     "health": 4000,

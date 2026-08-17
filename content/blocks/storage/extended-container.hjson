@@ -1,6 +1,6 @@
 {
   type: StorageBlock,
-  name: "扩展容器",
+  name: "extended-container",
   description: "更大的容器！",
   size: 2,
   health: 400,

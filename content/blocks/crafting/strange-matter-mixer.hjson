@@ -1,17 +1,16 @@
 {
   "type": "GenericCrafter",
-  "name": "extended-cryofluid-mixer",
-  "description": "改进的冷却液混合器，利用产出来的冷却液从大气中冷凝更多的水，回用于生产。",
+  "name": "strange-matter-mixer",
+  "description": "利用放射性物质辐照冷却液，产生了一种极冷液体，目前仅实验性的用于炮塔冷却。",
   "size": 2,
   "health": 320,
   "category": "crafting",
   "alwaysUnlocked": true,
 
   // 生产设定
-  // 生产时间
   "craftTime": 120,
   "outputLiquid": {
-    "liquid": "cryofluid",
+    "liquid": "strange-matter",
     "amount": 1 
   },
 
@@ -20,12 +19,12 @@
     "power": 1.0,
     "items": {
       "items": [
-        { "item": "titanium", "amount": 1 }
+        { "item": "thorium", "amount": 1 }
       ]
     },
     "liquid": {
-      "liquid": "water",
-      "amount": 0.2
+      "liquid": "cryofluid",
+      "amount": 1
     }
   },
 
@@ -42,6 +41,6 @@
   "requirements": [
     { "item": "lead", "amount": 65 },
     { "item": "silicon", "amount": 40 },
-    { "item": "titanium", "amount": 60 }
+    { "item": "thorium", "amount": 60 }
   ]
 }

@@ -1,11 +1,12 @@
 {
   "type": "PowerNode",
-  "name": "超导电力枢纽",
+  "name": "extended-power-node",
   "description": "终极电力节点，连接一切。",
   "size": 2,
   "health": 200,
   "laserRange": 60,
   "maxNodes": 32,
+  "laserScale": 0.1,
   "autolink": true,
   "drawRange": true,
   category: power,

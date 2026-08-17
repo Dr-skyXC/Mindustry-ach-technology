@@ -1,6 +1,6 @@
 {
   type: MassDriver
-  name: "电磁弹射质量驱动器"
+  name: "EM-mass-driver"
   description: "采用电磁弹射技术，将货物以极高初速投射至远方，大幅提升物流效率。"
 
   size: 3

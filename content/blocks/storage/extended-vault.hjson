@@ -1,6 +1,6 @@
 {
   type: StorageBlock,
-  name: "扩展仓库",
+  name: "extended-vault",
   description: "更大的仓库！",
   size: 3,
   health: 900,

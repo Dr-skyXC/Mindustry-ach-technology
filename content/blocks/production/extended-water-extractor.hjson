@@ -3,7 +3,7 @@
   type: SolidPump
 
   // 基本属性
-  name: "深层抽水机"
+  name: "extended-water-extractor"
   description: "消耗更多电力，从地下更深处抽取大量水资源。"
   size: 2
   health: 640

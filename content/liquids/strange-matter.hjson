@@ -1,0 +1,16 @@
+{
+  type: Liquid
+  name: "strange-matter"
+  description: "放射性物质辐照冷却液产生的一种极为高效的冷却介质.。"
+  color: "99FF99"          // 浅绿色
+  gasColor: "99FF99"
+  coolant: true            // true，才能被炮塔当冷却液用
+  heatCapacity: 1.3        // 冷却/加速强于冷却液(0.9)
+  temperature: 0.1         // 极冷
+  viscosity: 0.2           // 易流动
+  flammability: 0
+  explosiveness: 0
+  boilPoint: 5             // 不易蒸发
+  capPuddles: true
+  incinerable: true
+}

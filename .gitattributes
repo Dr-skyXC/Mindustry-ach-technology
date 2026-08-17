@@ -1,2 +1,5 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Bundle localization files: always use LF, avoid CRLF conversion warnings
+*.properties text eol=lf

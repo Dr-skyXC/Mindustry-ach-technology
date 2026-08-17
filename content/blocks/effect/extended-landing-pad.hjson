@@ -3,7 +3,7 @@
   type: LandingPad
 
   // 显示名称
-  name: "循环冷却接收台"
+  name: "extended-landing-pad"
   // 描述
   description: "使用大量钛粉构建内置循环冷却系统，耗水量大幅下降，效率也有所提升。"
 

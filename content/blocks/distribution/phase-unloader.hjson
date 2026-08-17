@@ -1,6 +1,6 @@
 {
   "type": "Unloader",
-  "name": "相织布卸货器",
+  "name": "phase-unloader",
   "description": "使用相织布的加速特性，以超越常规的速度卸载相邻建筑中的物品。",
   "size": 1,
   "health": 90,

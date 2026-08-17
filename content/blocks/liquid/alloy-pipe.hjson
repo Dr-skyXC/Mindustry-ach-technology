@@ -1,0 +1,22 @@
+{
+  type: LiquidBridge
+  name: "alloy-pipe"
+  description: "使用巨浪合金建造的导管桥，跨越地形远距离输送液体。"
+  size: 1
+  health: 120
+  range: 24                 // 和你的物品桥一致
+  liquidCapacity: 200
+  "pulse": true,                  // 启用脉动光效
+  "moveArrows": true,             // 显示流动箭头
+  "arrowPeriod": 0.3,             // 箭头动画更快
+  "arrowTimeScl": 8.0,            // 加速箭头运动
+  "connectedPower": false
+  "hasPower": false
+  category: liquid
+  alwaysUnlocked: true
+  requirements: [
+    "surge-alloy/10"
+    "silicon/8"
+    "titanium/6"
+  ]
+}
