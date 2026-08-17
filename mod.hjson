@@ -2,7 +2,7 @@
     name: "ach-technology"
     displayName: "Ach灰烬科技"
     author: "skyXCforever"
-    description: "原版内容优化扩展模组，包含更好用的机器，并添加了一个玩具烟花炮塔。"
-    version: "1.1"
+    description: "原版内容优化扩展模组，包含更好用的机器与流体物流。"
+    version: "1.4"
     minGameVersion: "159"
 }
