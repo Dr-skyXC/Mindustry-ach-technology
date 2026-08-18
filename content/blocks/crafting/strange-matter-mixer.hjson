@@ -7,6 +7,21 @@
   "category": "crafting",
   "alwaysUnlocked": true,
 
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawRegion",
+        "suffix": "-bottom"
+      },
+      {
+        "type": "DrawLiquidTile",
+        "drawLiquid": "strange-matter"
+      },
+      "DrawDefault"
+      ]
+    },
+
   // 生产设定
   "craftTime": 120,
   "outputLiquid": {

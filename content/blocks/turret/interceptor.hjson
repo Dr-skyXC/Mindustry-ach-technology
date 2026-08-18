@@ -1,0 +1,52 @@
+{
+  type: TractorBeamTurret
+  name: "interceptor"
+  description: "实验性的激光防空武器，快速锁定并灼烧空中单位。"
+  size: 2
+  health: 600
+  category: turret
+  alwaysUnlocked: true
+
+  // 索敌：只攻击空中单位
+  targetAir: true
+  targetGround: false
+
+  // 持续锁定并扫描目标
+  retargetTime: 2.0
+  shootCone: 5.0
+
+  // 光束配置
+  range: 320
+  laserWidth: 0.4
+  laserColor: "B266FF"
+  shootLength: 2
+
+  // 不牵引
+  force: 0
+  scaledForce: 0
+
+  // 光束伤害：原版差扰0.5
+  damage: 2.0
+
+  // 光束附加"融化"状态
+  status: "melting"
+  statusDuration: 60
+
+  // 基础属性
+  shootSound: beamParallax
+  shootSoundVolume: 0.9
+
+  // 电力消耗：240 单位/秒
+  hasPower: true
+  consumes: {
+    power: 4
+  }
+
+  // 建造需求
+  requirements: [
+    "surge-alloy/80"
+    "silicon/70"
+    "plastanium/60"
+    "thorium/50"
+  ]
+}
